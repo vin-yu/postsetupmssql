@@ -1,0 +1,1 @@
+--some SQL goes here; use SQLCMD -USA -P$MSSQL_PW -i postsetup.sql
