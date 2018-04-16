@@ -26,5 +26,6 @@ RUN mkdir /container_post_setup
 COPY ./postsetup /container_post_setup
 RUN chmod +x /container_post_setup/postsetup.sh
 
+EXPOSE 1433
 
 CMD ["/bin/bash", "/container_post_setup/entrypoint.sh"]
